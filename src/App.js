@@ -49,9 +49,11 @@
 // }
 import React from 'react'
 import Callbacks from './Callbacks'
+import CounterComponent from './CounterComponent'
+import Memo from './Memo'
 
 export default function App() {
   return (
-    <div><Callbacks/></div>
+    <div><Callbacks/><CounterComponent/><Memo/></div>
   )
 }
